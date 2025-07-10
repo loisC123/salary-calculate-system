@@ -1,0 +1,20 @@
+# Ignore all Excel files
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+
+# VSCode settings (optional)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
