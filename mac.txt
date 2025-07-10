@@ -1,0 +1,13 @@
+macOS 建立虛擬環境的方法
+📦 方法一：使用 venv（內建）
+cd ~/Desktop/myproject  # 移到你的專案資料夾
+python3 -m venv venv
+source venv/bin/activate
+
+啟用後，Prompt 會變成：
+(venv) lois@MacBook-Pro myproject %
+接著可以安裝需要的套件：
+pip install pandas numpy openpyxl
+
+關閉虛擬環境
+deactivate
